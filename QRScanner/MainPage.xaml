@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:ads="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob"
+             x:Class="QRScanner.MainPage">
+    <RefreshView Command="{Binding RefreshCommand}" IsRefreshing="{Binding IsRefreshing}">
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <ads:MTAdView AdsId="{Binding MyAdId}" Grid.Row="0" HeightRequest="80" BackgroundColor="White"/>
+                <StackLayout Grid.Row="1">
+                    <Frame CornerRadius="10" Padding="5" Margin="10" BackgroundColor="White">
+                        <Label Margin="20" FontSize="Medium" TextColor="DarkBlue" Text="{Binding Result}" TextDecorations="Underline" x:Name="txtResult" >
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding OpenCommand}" NumberOfTapsRequired="1"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </Frame>
+                    <StackLayout HorizontalOptions="Center">
+                        <Label Text="{Binding Error}" Margin="20" VerticalOptions="CenterAndExpand" TextColor="{Binding ErrorColor}"/>
+                    </StackLayout>
+                    <Button CornerRadius="10" x:Name="btnScan" BackgroundColor="LightGray" Margin="10,0,10,0" HeightRequest="100" Text="SCAN AGAIN" Command="{Binding ScanCommand}"/>
+                    <Button CornerRadius="10" x:Name="btnCopy" Background="LightGray" Margin="10,10,10,10" HeightRequest="100" Text="COPY LINK" Command="{Binding CopyCommand}"/>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </RefreshView>
+</ContentPage>

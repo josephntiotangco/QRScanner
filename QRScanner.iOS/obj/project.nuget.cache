@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "gTe5e38xPAaPm9287Zl+c6uKxxJQR63yEiZXXOwOf2fL/UyDNSouKLy4V1/FheT7IgSg6CD2sdi60Ucwmt3WOA==",
+  "success": true,
+  "projectFilePath": "D:\\jnt\\Projects\\QRScanner\\QRScanner.iOS\\QRScanner.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jntDevz.JNT\\.nuget\\packages\\marctron.admob\\1.6.1\\marctron.admob.1.6.1.nupkg.sha512",
+    "C:\\Users\\jntDevz.JNT\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\jntDevz.JNT\\.nuget\\packages\\xamarin.build.download\\0.10.0\\xamarin.build.download.0.10.0.nupkg.sha512",
+    "C:\\Users\\jntDevz.JNT\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\jntDevz.JNT\\.nuget\\packages\\xamarin.firebase.ios.core\\6.10.4\\xamarin.firebase.ios.core.6.10.4.nupkg.sha512",
+    "C:\\Users\\jntDevz.JNT\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\jntDevz.JNT\\.nuget\\packages\\xamarin.google.ios.mobileads\\7.66.0\\xamarin.google.ios.mobileads.7.66.0.nupkg.sha512",
+    "C:\\Users\\jntDevz.JNT\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}

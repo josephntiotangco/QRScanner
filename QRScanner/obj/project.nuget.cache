@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "c4EDErQKDTmtWtcq2QfHAG0PrsRbS2Kt5LZgB4ubH5yNNQH/EHmrvsJZh9YCBUMqvlAEJIom5D26y1cmi2Z08Q==",
+  "success": true,
+  "projectFilePath": "D:\\jnt\\Projects\\QRScanner\\QRScanner\\QRScanner.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jntDevz.JNT\\.nuget\\packages\\marctron.admob\\1.6.1\\marctron.admob.1.6.1.nupkg.sha512",
+    "C:\\Users\\jntDevz.JNT\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\jntDevz.JNT\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\jntDevz.JNT\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\jntDevz.JNT\\.nuget\\packages\\xamarin.build.download\\0.10.0\\xamarin.build.download.0.10.0.nupkg.sha512",
+    "C:\\Users\\jntDevz.JNT\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\jntDevz.JNT\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\jntDevz.JNT\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}
